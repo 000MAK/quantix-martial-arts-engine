@@ -219,6 +219,13 @@ python -m uvicorn api:app --host 127.0.0.1 --port 8000
 
 These are candidates, not approvals: each new dataset record has empty `approved_tasks` and a blocked status. Do not mix their broad action labels or skeleton formats into the ViCoS BJJ position model without task-specific label mapping, provenance review and sequence/subject-aware validation. A video being viewable or downloadable online does not grant permission to train on or redistribute it. Obtain consent and required approvals before processing identifiable training or health data. Keep sensitive footage and injury records private.
 
+## Published artifacts
+
+| Artifact | Where | Notes |
+|---|---|---|
+| UCI HAR activity baseline | [makactuary/uci-har-activity-baseline](https://huggingface.co/makactuary/uci-har-activity-baseline) | Subject-held-out evaluation: accuracy 0.955, macro-F1 0.954 on 9 unseen volunteers (`train-uci-har`) |
+| GrappleMap BJJ position-transition graph | [makactuary/grapplemap-bjj-graph](https://huggingface.co/datasets/makactuary/grapplemap-bjj-graph) | 725 positions, 1,485 transitions, decoded from Eelis van der Weegen's public-domain [GrappleMap](https://github.com/Eelis/GrappleMap) (`export-grapplemap`) |
+
 ## Known evaluation limitation (ViCoS)
 
 The 16 ViCoS sequence prefixes correspond to roughly six sparring sessions recorded from two or three camera views (prefix groups 0-2, 3-5, 6-8, 9-10, 11-13, 14-15 have near-identical label counts). Prefix-grouped splits therefore place different views of the same moments in train and test, so reported pose-baseline scores are optimistic. Sessions also contain disjoint position subsets (e.g. turtle only in 9-10, back control only in 14-15), so a session-held-out 18-class evaluation is not possible with this dataset alone. An RGB CNN trained on these splits learned camera/background cues rather than positions and performed below the majority-class baseline.
