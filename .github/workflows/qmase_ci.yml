@@ -1,0 +1,53 @@
+name: QMASE CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      # Light dependencies only: torch, streamlit and media extras are imported
+      # lazily and are not needed by the unit tests.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pytest
+
+      - name: Run tests
+        env:
+          PYTHONPATH: src
+        run: python -m pytest tests -q
+
+      - name: Check dataset registry is valid JSON with a deny-by-default policy
+        run: |
+          python - <<'EOF'
+          import json
+          registry = json.load(open("data/dataset_registry.json", encoding="utf-8"))
+          assert registry["policy"] == "deny_by_default", registry["policy"]
+          ids = [d["dataset_id"] for d in registry["datasets"]]
+          assert len(ids) == len(set(ids)), "duplicate dataset_id"
+          print(f"{len(ids)} registry entries OK")
+          EOF
