@@ -10,17 +10,24 @@
       "access_type": "public_download",
       "license_id": "CC-BY-NC-SA-4.0",
       "status": "approved_for_noncommercial_analysis_only",
-      "task_compatibility": ["bjj_position_classification", "bjj_position_transition_analysis"],
-      "limitations": "Non-commercial, share-alike terms. Position labels support descriptive transitions between sampled annotations, not guard-drop labels or continuous dwell-time estimates. Dataset coverage is limited to six sparring sequences and is not professional-match coverage.",
+      "task_compatibility": [
+        "bjj_position_classification",
+        "bjj_position_transition_analysis"
+      ],
+      "limitations": "120,279 labeled images from two athletes across six sparring sequences; 10 positions map to 18 classes. Position labels support descriptive transitions between sampled annotations, not guard-drop labels or continuous dwell-time estimates. Pose detections were automatic and manually verified, but their correctness is not guaranteed. Non-commercial, share-alike terms apply; this is not professional-match coverage.",
       "analysis_approval": {
-        "approved_tasks": ["bjj_position_transition_analysis"],
+        "approved_tasks": [
+          "bjj_position_transition_analysis"
+        ],
         "reviewer": "User selected the ViCoS candidate for non-commercial position analysis in this session",
         "reviewed_at": "2026-10-27",
         "evidence_ref": "https://www2.vicos.si/resources/jiujitsu/",
         "access_evidence_ref": "https://data.vicos.si/datasets/JuiJuitsu/annotations.json"
       },
       "image_training_approval": {
-        "approved_tasks": ["bjj_position_image_classification"],
+        "approved_tasks": [
+          "bjj_position_image_classification"
+        ],
         "reviewer": "User requested work with image data after selecting the ViCoS candidate",
         "reviewed_at": "2026-10-27",
         "evidence_ref": "https://www2.vicos.si/resources/jiujitsu/",
@@ -28,7 +35,9 @@
         "scope": "Exploratory image classification of the dataset's 18 annotated position classes only; not guard-drop prediction or general athlete evaluation."
       },
       "training_approval": {
-        "approved_tasks": ["bjj_pose_position_classification"],
+        "approved_tasks": [
+          "bjj_pose_position_classification"
+        ],
         "reviewer": "User requested training on publicly accessible martial-arts datasets; scope limited to this licensed non-commercial ViCoS position task",
         "reviewed_at": "2026-10-27",
         "evidence_ref": "https://www2.vicos.si/resources/jiujitsu/",
@@ -44,7 +53,9 @@
       "access_type": "manual_approval",
       "license_id": "ROSE-Lab-Release-Agreement",
       "status": "access_approval_required",
-      "task_compatibility": ["general_skeleton_action_recognition"],
+      "task_compatibility": [
+        "general_skeleton_action_recognition"
+      ],
       "limitations": "Registration, request, and release agreement required; academic non-commercial research only under the published terms. Not a guard-drop annotation set.",
       "training_approval": {
         "approved_tasks": [],
@@ -61,8 +72,10 @@
       "access_type": "academic_request",
       "license_id": "Human3.6M-Academic-Use-Agreement",
       "status": "access_approval_required",
-      "task_compatibility": ["general_3d_pose_estimation"],
-      "limitations": "Academic-use request conditions apply; daily-activity motion capture, not combat-performance labels.",
+      "task_compatibility": [
+        "general_3d_pose_estimation"
+      ],
+      "limitations": "The official description reports 3.6 million 3D poses from 11 actors in 17 everyday-action scenarios with synchronized video, motion capture and body-part labels. Daily-activity data, not combat-performance labels; access and use are subject to the official data-use license agreement and citation requirements.",
       "training_approval": {
         "approved_tasks": [],
         "reviewer": "",
@@ -77,15 +90,345 @@
       "source_url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
       "access_type": "public_download",
       "license_id": "CC-BY-4.0",
-      "status": "not_approved_task_mismatch",
-      "task_compatibility": ["general_wearable_activity_classification"],
+      "status": "approved_for_baseline_analysis_only",
+      "task_compatibility": [
+        "general_wearable_activity_classification"
+      ],
       "limitations": "Daily activities from smartphone inertial sensors; not video skeleton sequences or combat-technique labels.",
+      "training_approval": {
+        "approved_tasks": [
+          "general_wearable_activity_classification"
+        ],
+        "reviewer": "User selected UCI HAR in this session; license verified on the UCI dataset page",
+        "reviewed_at": "2026-10-27",
+        "evidence_ref": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+        "access_evidence_ref": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+        "scope": "Daily-activity inertial-sensor baseline only. Not combat-technique, fatigue or injury evidence.",
+        "archive_sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+        "local_path": "data/raw/uci_har_smartphones/uci_har.zip"
+      }
+    },
+    {
+      "dataset_id": "hmdb51",
+      "title": "HMDB51 Human Motion Recognition Video Dataset",
+      "source_url": "https://serre.lab.brown.edu/hmdb51.html",
+      "access_type": "public_download",
+      "license_id": "CC-BY-4.0",
+      "status": "pending_task_and_clip_rights_review",
+      "task_compatibility": [
+        "general_action_recognition",
+        "combat_action_recognition"
+      ],
+      "limitations": "6,849 clips across 51 classes; includes punch, kick someone, fencing and sword fight. General human-action footage rather than BJJ position labels. Review the license scope for each clip and the intended video-derived artifacts.",
       "training_approval": {
         "approved_tasks": [],
         "reviewer": "",
         "reviewed_at": "",
-        "evidence_ref": "",
-        "access_evidence_ref": ""
+        "evidence_ref": "https://serre.lab.brown.edu/hmdb51.html",
+        "access_evidence_ref": "https://serre.lab.brown.edu/hmdb51.html"
+      }
+    },
+    {
+      "dataset_id": "ucf101",
+      "title": "UCF101 Human Actions Dataset",
+      "source_url": "https://www.crcv.ucf.edu/research/data-sets/ucf101/",
+      "access_type": "public_download",
+      "license_id": "unspecified_on_official_dataset_page",
+      "status": "rights_review_required",
+      "task_compatibility": [
+        "general_action_recognition",
+        "combat_action_recognition"
+      ],
+      "limitations": "13,320 YouTube-sourced clips across 101 classes, including Punch, Boxing Punching Bag, Boxing Speed Bag, Fencing, Sumo Wrestling and Tai Chi. The official page does not specify a reuse or model-training license. Respect its source-group split protocol.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://www.crcv.ucf.edu/research/data-sets/ucf101/",
+        "access_evidence_ref": "https://www.crcv.ucf.edu/research/data-sets/ucf101/"
+      }
+    },
+    {
+      "dataset_id": "ava_actions",
+      "title": "AVA Actions and AVA-Kinetics",
+      "source_url": "https://research.google.com/ava/",
+      "access_type": "public_annotations_video_ids",
+      "license_id": "underlying_video_rights_unverified",
+      "status": "rights_review_required",
+      "task_compatibility": [
+        "spatiotemporal_action_localization",
+        "combat_action_localization"
+      ],
+      "limitations": "Person/time-localized labels include martial art, fight/hit a person, grab a person and kick a person. Video IDs point to third-party source videos; annotation availability does not grant blanket rights to download or train on those videos.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://research.google.com/ava/",
+        "access_evidence_ref": "https://research.google.com/ava/download.html"
+      }
+    },
+    {
+      "dataset_id": "ucf_crime",
+      "title": "UCF-Crime",
+      "source_url": "https://www.crcv.ucf.edu/projects/real-world/",
+      "access_type": "public_download_link_rights_unverified",
+      "license_id": "unspecified_on_official_dataset_page",
+      "status": "rights_review_required",
+      "task_compatibility": [
+        "coarse_fight_detection",
+        "surveillance_anomaly_detection"
+      ],
+      "limitations": "1,900 long untrimmed surveillance videos; Fighting is a coarse anomaly class, not combat-sport technique or grappling labels. Official page does not state model-training or derivative-use terms.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://www.crcv.ucf.edu/projects/real-world/",
+        "access_evidence_ref": "https://www.crcv.ucf.edu/projects/real-world/"
+      }
+    },
+    {
+      "dataset_id": "rwf_2000",
+      "title": "RWF-2000 Violence Detection Video Database",
+      "source_url": "https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection",
+      "access_type": "video_files_unavailable",
+      "license_id": "RWF2000-Repository-Terms",
+      "status": "unavailable_and_permission_required",
+      "task_compatibility": [
+        "coarse_violence_detection"
+      ],
+      "limitations": "2,000 surveillance clips labeled violent/non-violent. Repository says video files are currently unavailable and prohibits modification/redistribution and commercial use without lab approval; training permission is not established.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection",
+        "access_evidence_ref": "https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection"
+      }
+    },
+    {
+      "dataset_id": "coco_keypoints",
+      "title": "COCO Person Keypoints",
+      "source_url": "https://cocodataset.org/#home",
+      "access_type": "public_download",
+      "license_id": "image_level_terms_to_review",
+      "status": "rights_review_required",
+      "task_compatibility": [
+        "generic_person_pose_estimation"
+      ],
+      "limitations": "Static-image person keypoints with 17 joints; useful for generic pose-detector work, not action sequences or combat-position classification. Verify official terms and each image's rights/attribution before training.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://cocodataset.org/#home",
+        "access_evidence_ref": "https://cocodataset.org/#download"
+      }
+    },
+    {
+      "dataset_id": "penn_action",
+      "title": "Penn Action Video Dataset",
+      "source_url": "https://dreamdragon.github.io/PennAction/",
+      "access_type": "public_download_link_rights_unverified",
+      "license_id": "unspecified_on_project_page",
+      "status": "rights_review_required",
+      "task_compatibility": [
+        "generic_temporal_pose_estimation",
+        "fitness_action_recognition"
+      ],
+      "limitations": "2,326 RGB sequences across 15 fitness/sports actions, with 13-joint frame annotations. No martial-arts classes, and its skeleton schema differs from ViCoS. Project page provides no explicit reuse or model-training license.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://dreamdragon.github.io/PennAction/",
+        "access_evidence_ref": "https://dreamdragon.github.io/PennAction/"
+      }
+    },
+    {
+      "dataset_id": "amass",
+      "title": "AMASS Motion Capture Archive",
+      "source_url": "https://amass.is.tue.mpg.de/",
+      "access_type": "registration_required",
+      "license_id": "component_dataset_and_body_model_terms_to_review",
+      "status": "access_and_component_rights_review_required",
+      "task_compatibility": [
+        "generic_3d_motion_modeling",
+        "motion_prior_research"
+      ],
+      "limitations": "Unifies 15 marker-based mocap sources into SMPL; over 40 hours, 300+ subjects and 11,000+ motions. Not combat-labeled; constituent datasets and body-model terms may differ. Verify access agreement and component permissions before training.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://amass.is.tue.mpg.de/",
+        "access_evidence_ref": "https://amass.is.tue.mpg.de/"
+      }
+    },
+    {
+      "dataset_id": "cmu_mocap",
+      "title": "CMU Graphics Lab Motion Capture Database",
+      "source_url": "https://mocap.cs.cmu.edu/",
+      "access_type": "public_archives",
+      "license_id": "CMU_MOCAP_SITE_TERMS",
+      "status": "candidate_terms_review_required",
+      "task_compatibility": [
+        "generic_motion_modeling",
+        "human_interaction_motion"
+      ],
+      "limitations": "2,605 trials in six broad categories; generic mocap, not combat-sport technique labels. Site permits use in products but prohibits direct resale of data, including converted data; do not crawl and retain the requested acknowledgment.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://mocap.cs.cmu.edu/",
+        "access_evidence_ref": "https://mocap.cs.cmu.edu/faqs.php"
+      }
+    },
+    {
+      "dataset_id": "physionet_wearable_exam_stress",
+      "title": "PhysioNet Wearable Exam Stress Dataset",
+      "source_url": "https://physionet.org/content/wearable-exam-stress/1.0.0/",
+      "access_type": "physionet_account_and_versioned_terms",
+      "license_id": "versioned_physionet_terms_to_review",
+      "status": "access_and_task_review_required",
+      "task_compatibility": [
+        "wearable_sensor_pipeline_validation",
+        "physiological_signal_research"
+      ],
+      "limitations": "Contains EDA, heart rate, BVP, skin temperature, inter-beat interval and accelerometer data from exam sessions. Not athlete or combat data; must not support sports-fatigue or medical claims without suitable evidence.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://physionet.org/content/wearable-exam-stress/1.0.0/",
+        "access_evidence_ref": "https://physionet.org/content/wearable-exam-stress/1.0.0/"
+      }
+    },
+    {
+      "dataset_id": "esc50",
+      "title": "ESC-50 Environmental Sound Classification",
+      "source_url": "https://github.com/karolpiczak/ESC-50",
+      "access_type": "public_download",
+      "license_id": "CC-BY-NC-3.0-dataset_with_clip_level_sources",
+      "status": "approved_for_noncommercial_baseline_analysis_only",
+      "task_compatibility": [
+        "environmental_sound_classification"
+      ],
+      "limitations": "2,000 five-second clips over 50 environmental classes, including breathing, clapping and footsteps, but no combat-specific sound labels. Dataset license is non-commercial; each source clip has separate attribution/license details.",
+      "training_approval": {
+        "approved_tasks": [
+          "environmental_sound_classification"
+        ],
+        "reviewer": "User selected ESC-50 in this session; LICENSE file read (CC BY-NC 3.0 dataset; per-clip Freesound attribution in meta)",
+        "reviewed_at": "2026-10-27",
+        "evidence_ref": "https://github.com/karolpiczak/ESC-50/blob/master/LICENSE",
+        "access_evidence_ref": "https://github.com/karoldvl/ESC-50/archive/master.zip",
+        "noncommercial_use_confirmed": true,
+        "scope": "Non-commercial environmental-sound baseline only. No combat-specific impact labels; not strike-force evidence.",
+        "archive_sha256": "805afc618aff80eff0641d51311647871fead5807da68bb18e43a27db47a79ce",
+        "local_path": "data/raw/esc50/ESC-50-master.zip"
+      }
+    },
+    {
+      "dataset_id": "fsd50k",
+      "title": "FSD50K Human-Labeled Sound Events",
+      "source_url": "https://zenodo.org/records/4060432",
+      "access_type": "public_download_with_per_clip_licenses",
+      "license_id": "CC-BY-4.0-dataset_with_mixed_clip_licenses",
+      "status": "rights_review_required",
+      "task_compatibility": [
+        "general_audio_event_classification"
+      ],
+      "limitations": "51,197 clips across 200 sound classes. Individual clips include CC0, CC-BY, CC-BY-NC and CC Sampling+; inspect clip metadata and exclude clips whose terms do not allow the intended training and derivative use. Commercial use requires author contact.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://zenodo.org/records/4060432",
+        "access_evidence_ref": "https://zenodo.org/records/4060432"
+      }
+    },
+    {
+      "dataset_id": "mpii_human_pose",
+      "title": "MPII Human Pose Dataset",
+      "source_url": "https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/software-and-datasets/mpii-human-pose-dataset",
+      "access_type": "download_link_rights_unverified",
+      "license_id": "unspecified_on_official_dataset_page",
+      "status": "rights_review_required",
+      "task_compatibility": [
+        "generic_image_pose_estimation",
+        "general_activity_recognition"
+      ],
+      "limitations": "About 25,000 images with over 40,000 people, 410 general activity labels and images extracted from YouTube videos. Not combat-technique labels. The official page does not specify a dataset-wide reuse or model-training license; confirm image/source rights before acquisition or use.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/software-and-datasets/mpii-human-pose-dataset",
+        "access_evidence_ref": "https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/software-and-datasets/mpii-human-pose-dataset"
+      }
+    },
+    {
+      "dataset_id": "kinetics",
+      "title": "Kinetics-400/600/700",
+      "source_url": "https://github.com/cvdfoundation/kinetics-dataset",
+      "access_type": "youtube_video_links_and_annotations",
+      "license_id": "underlying_video_rights_unverified",
+      "status": "rights_review_required",
+      "task_compatibility": [
+        "general_action_recognition"
+      ],
+      "limitations": "Large-scale general action labels refer to YouTube-hosted clips; this is not a dedicated combat-sport technique dataset. The repository does not grant blanket rights to source videos. Verify clip-level rights and avoid cross-version train/test leakage (for example, Kinetics-400 validation videos can overlap Kinetics-700 training).",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://github.com/cvdfoundation/kinetics-dataset",
+        "access_evidence_ref": "https://github.com/cvdfoundation/kinetics-dataset"
+      }
+    },
+    {
+      "dataset_id": "audioset",
+      "title": "Google AudioSet",
+      "source_url": "https://research.google.com/audioset/",
+      "access_type": "public_annotations_and_precomputed_features_youtube_source_audio",
+      "license_id": "underlying_audio_rights_unverified",
+      "status": "rights_review_required",
+      "task_compatibility": [
+        "general_audio_event_classification"
+      ],
+      "limitations": "2,084,320 ten-second segments with labels; audio embeddings and annotations are available, while source audio remains linked to YouTube videos. No blanket permission to download or train on the underlying recordings is assumed; not a combat-sound-specific dataset.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "https://research.google.com/audioset/",
+        "access_evidence_ref": "https://research.google.com/audioset/download.html"
+      }
+    },
+    {
+      "dataset_id": "grapplemap",
+      "title": "GrappleMap grappling technique map",
+      "source_url": "https://github.com/Eelis/GrappleMap",
+      "access_type": "public_git_repository",
+      "license_id": "Public-Domain-dedication",
+      "status": "approved_for_analysis",
+      "task_compatibility": [
+        "bjj_position_transition_graph"
+      ],
+      "limitations": "Hand-authored technique graph (positions and transitions) by one project; describes possible techniques, not observed match frequencies. Edge counts are not probabilities of real-world transitions.",
+      "analysis_approval": {
+        "approved_tasks": [
+          "bjj_position_transition_graph"
+        ],
+        "reviewer": "User selected GrappleMap in this session; LICENSE states contributions released into the Public Domain",
+        "reviewed_at": "2026-10-27",
+        "evidence_ref": "https://github.com/Eelis/GrappleMap/blob/master/LICENSE",
+        "access_evidence_ref": "https://github.com/Eelis/GrappleMap",
+        "source_commit": "032c8f9",
+        "local_path": "data/raw/grapplemap/GrappleMap"
       }
     }
   ]

@@ -2,6 +2,8 @@
 
 Local research scaffold for the **100 numbered entries** supplied by the user. It combines shared data contracts with optional computer vision/pose extraction, acoustic features, transition analysis, supervised-learning baselines, injury survival analysis and an arcade telemetry contract.
 
+See [MODEL_CATALOG.md](MODEL_CATALOG.md) for the implemented-versus-proposed model inventory and research prerequisites. The catalog explicitly does not claim that roadmap methods are deployed or integrated with BIOGAS.
+
 ## Evidence rules
 
 - The catalogue preserves the supplied numbering and four groups of 25. A row ID is a catalogue identifier, not evidence that every row is a distinct, standardized or directly comparable martial art. Some names repeat or overlap; the catalogue flags several for review rather than silently rewriting the source list.
@@ -197,7 +199,23 @@ python -m uvicorn api:app --host 127.0.0.1 --port 8000
 
 ## Source and licensing register
 
-`data/sources.json` lists candidate benchmark data and visual-study references. UCF101/HMDB51 are general action datasets with limited combat-adjacent labels; they do not cover this 100-entry catalogue comprehensively. ViCoS is a BJJ positions dataset and carries non-commercial/share-alike terms stated by its project page. A video being viewable online does not grant permission to download, train on, or redistribute it. Verify each dataset, video, model and software license before use. Obtain consent and required approvals before processing identifiable training or health data. Keep sensitive footage and injury records private.
+`data/sources.json` lists candidate benchmark data and visual-study references; `data/dataset_registry.json` is the authorization gate. Additional candidates verified against their official pages:
+
+- **HMDB51** is the most immediately accessible general-action candidate: its official page lists 6,849 clips, classes such as punch, kick someone, fencing and sword fight, and states CC BY 4.0. It is not BJJ-specific. Verify that the license applies to the actual clip files and intended derivatives before adding any training approval.
+- **UCF101** has 13,320 YouTube-sourced clips and classes including Punch, boxing-bag drills, fencing, sumo and tai chi. Its official page does not state a reuse/model-training license, so it remains blocked pending rights review.
+- **AVA / AVA-Kinetics** provides person/time-localized action labels including martial art, fight/hit a person, grab a person and kick a person. Its annotations/video IDs do not grant blanket rights to the underlying third-party videos.
+- **NTU RGB+D 120** includes RGB and 3D skeleton data with punch/slap and kicking labels, but requires account approval and an academic non-commercial release agreement. Redistribution, derivative dataset creation and commercial use need explicit ROSE Lab permission.
+- **UCF-Crime** has a coarse surveillance Fighting label, not sport-technique labels; the official page does not state training rights. **RWF-2000** is similarly only violent/non-violent surveillance data, and its repository currently says the video files are unavailable.
+- **COCO Person Keypoints** provides static people/keypoint annotations for generic pose-detector work, not combat or temporal labels. Check image-level terms and attribution before use.
+- **Penn Action** has 2,326 RGB sequences across 15 fitness/sports actions with frame-level 13-joint annotations; it can help test temporal pose tooling, but has no martial-arts classes and its project page does not specify a model-training license.
+- **ESC-50** contains 2,000 five-second labeled sound clips (e.g. breathing, clapping and footsteps), but no combat-specific sound labels. Its dataset-level license is CC BY-NC 3.0 and each source clip has provenance details.
+- **FSD50K** offers 51,197 human-labeled audio clips across 200 sound classes. Clip licenses vary (including CC0, CC-BY, CC-BY-NC and CC Sampling+), so any training subset must be filtered against per-clip rights; commercial use requires author contact.
+- **AudioSet** provides labels for 2,084,320 ten-second YouTube-derived segments plus precomputed audio embeddings. It does not provide blanket rights to download or train on the underlying recordings and is not combat-sound-specific.
+- **AMASS** unifies 15 marker-based motion-capture sources into a shared SMPL representation (40+ hours, 11,000+ motions); registration and each constituent dataset's conditions apply. It is generic motion, not martial-arts technique ground truth.
+- **CMU Graphics Lab Motion Capture Database** provides 2,605 trials in broad categories including human interaction and sports. Its official terms allow use in products but prohibit reselling the data directly or in converted form; use provided archives rather than crawling and include the requested acknowledgment.
+- **PhysioNet Wearable Exam Stress** includes EDA, heart rate, BVP, skin temperature, inter-beat interval and accelerometer recordings from exam sessions. It can exercise the sensor pipeline but is not athlete data and cannot validate a sports-fatigue model.
+
+These are candidates, not approvals: each new dataset record has empty `approved_tasks` and a blocked status. Do not mix their broad action labels or skeleton formats into the ViCoS BJJ position model without task-specific label mapping, provenance review and sequence/subject-aware validation. A video being viewable or downloadable online does not grant permission to train on or redistribute it. Obtain consent and required approvals before processing identifiable training or health data. Keep sensitive footage and injury records private.
 
 ## Known evaluation limitation (ViCoS)
 

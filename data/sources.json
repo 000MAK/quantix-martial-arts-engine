@@ -5,22 +5,141 @@
       "id": "ucf101",
       "name": "UCF101 Human Actions Dataset",
       "url": "https://www.crcv.ucf.edu/research/data-sets/ucf101/",
-      "coverage_note": "General action-recognition benchmark; includes a limited number of combat-adjacent classes, not martial-arts match telemetry.",
-      "license_note": "Check the dataset page and its linked terms before use; access/download is not performed by this project."
+      "coverage_note": "13,320 YouTube-sourced clips in 101 classes; includes Punch, Boxing Punching Bag, Boxing Speed Bag, Fencing, Sumo Wrestling and Tai Chi. Group-aware splits are required; not a BJJ position dataset.",
+      "license_note": "Official page does not specify a reuse or model-training license. Rights review required before downloading or training; access/download is not performed by this project."
     },
     {
       "id": "hmdb51",
       "name": "HMDB51",
       "url": "https://serre.lab.brown.edu/hmdb51.html",
       "coverage_note": "General human-action clips; includes a few punch/kick/fencing/sword labels, not comprehensive discipline coverage.",
-      "license_note": "The project page reports CC BY 4.0; verify attribution and the current terms for the specific files used."
+      "license_note": "Official page states CC BY 4.0. Attribute the dataset and paper; confirm that the license applies to every distributed clip and any planned video-derived artifacts before training or redistribution."
+    },
+    {
+      "id": "ava_actions",
+      "name": "AVA Actions / AVA-Kinetics",
+      "url": "https://research.google.com/ava/",
+      "coverage_note": "AVA provides person/time-localized labels including martial art, fight/hit a person, grab a person and kick a person. AVA-Kinetics includes annotated YouTube video IDs; clips are not BJJ position labels.",
+      "license_note": "Official pages distribute annotations and reference YouTube videos; they do not establish blanket rights to download/train on all underlying videos. Review current dataset and video-source terms before use."
+    },
+    {
+      "id": "ntu_rgbd_120_skeleton",
+      "name": "NTU RGB+D 120",
+      "url": "https://rose1.ntu.edu.sg/dataset/actionRecognition/",
+      "coverage_note": "114,480 RGB-D/IR samples with 3D skeletons; includes labeled punch/slap and kicking interactions. Access requires registration and approval; much broader human-action coverage than combat sports.",
+      "license_note": "Academic non-commercial research only under a signed release agreement. Redistribution, derivative dataset creation and commercial use are prohibited without ROSE Lab permission."
+    },
+    {
+      "id": "ucf_crime",
+      "name": "UCF-Crime",
+      "url": "https://www.crcv.ucf.edu/projects/real-world/",
+      "coverage_note": "1,900 long untrimmed surveillance videos with a coarse Fighting anomaly class. Useful only for broad fight/non-fight experiments; not combat sports or technique labels.",
+      "license_note": "The project page links dataset files but does not state a model-training or derivative-use license. Rights review required before acquisition or training."
+    },
+    {
+      "id": "rwf_2000",
+      "name": "RWF-2000",
+      "url": "https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection",
+      "coverage_note": "2,000 surveillance clips labeled Violent/Non-Violent; coarse violence detection, not martial-arts technique recognition.",
+      "license_note": "Repository states video files are currently unavailable and prohibits modification/redistribution and commercial use without lab approval. No training permission assumed."
+    },
+    {
+      "id": "coco_keypoints",
+      "name": "COCO Person Keypoints",
+      "url": "https://cocodataset.org/#home",
+      "coverage_note": "Static images with person bounding boxes and 17-keypoint annotations; useful for generic pose-detector pretraining, not temporal action or combat labels.",
+      "license_note": "Review the official terms and image-level attribution/rights metadata before training or redistribution; do not assume every underlying photo has identical terms."
+    },
+    {
+      "id": "penn_action",
+      "name": "Penn Action Dataset",
+      "url": "https://dreamdragon.github.io/PennAction/",
+      "coverage_note": "2,326 RGB video sequences across 15 fitness/sports actions with frame-level 13-joint pose, visibility, bounding-box and train/test annotations; no combat-specific classes.",
+      "license_note": "Official project page provides a download and citation but no explicit dataset/model-training license. Rights review required before downloading or training."
+    },
+    {
+      "id": "amass",
+      "name": "AMASS Motion Capture Archive",
+      "url": "https://amass.is.tue.mpg.de/",
+      "coverage_note": "Research archive unifying 15 optical marker-based mocap datasets into a shared SMPL representation; over 40 hours, 300+ subjects and 11,000+ motions. Useful for generic 3D motion research, not labeled martial-arts technique.",
+      "license_note": "Registration required. Constituent datasets and the body model can have distinct terms; review the signed access conditions and each component's license before training or sharing derived weights."
+    },
+    {
+      "id": "cmu_mocap",
+      "name": "CMU Graphics Lab Motion Capture Database",
+      "url": "https://mocap.cs.cmu.edu/",
+      "coverage_note": "2,605 motion trials across six broad categories including human interaction and sports; marker-based mocap, not combat-sport technique labels.",
+      "license_note": "Official site says data is free for all uses and may be included in commercial products, but not resold directly or in converted form. Do not crawl; use provided archives and retain the requested acknowledgment."
+    },
+    {
+      "id": "physionet_wearable_exam_stress",
+      "name": "PhysioNet Wearable Exam Stress Dataset",
+      "url": "https://physionet.org/content/wearable-exam-stress/1.0.0/",
+      "coverage_note": "EDA, heart rate, blood-volume pulse, skin temperature, inter-beat interval and accelerometer data across three exam sessions. Useful for testing sensor pipelines, not sports fatigue or combat performance.",
+      "license_note": "Check the versioned PhysioNet license and credentialing/approval requirements on the dataset page before access or reuse; no sports/medical inference permission is implied."
+    },
+    {
+      "id": "esc50",
+      "name": "ESC-50 Environmental Sound Classification",
+      "url": "https://github.com/karolpiczak/ESC-50",
+      "coverage_note": "2,000 labeled five-second recordings across 50 environmental sound classes, including breathing, clapping and footsteps; no combat technique labels.",
+      "license_note": "Dataset-level CC BY-NC 3.0; individual source clips have their own CC0/CC-BY terms. Non-commercial use only under the dataset license; preserve attribution and inspect clip-level provenance."
+    },
+    {
+      "id": "fsd50k",
+      "name": "FSD50K",
+      "url": "https://zenodo.org/records/4060432",
+      "coverage_note": "51,197 human-labeled Freesound clips (108.3 hours) across 200 sound classes; useful for general acoustic features, not a dedicated combat-impact or martial-arts technique benchmark.",
+      "license_note": "The dataset curation is CC BY 4.0, but each clip has its own license (CC0, CC-BY, CC-BY-NC or CC Sampling+). Inspect and retain per-clip provenance; exclude NC/Sampling+ pending legal review. The official page asks commercial users to contact the authors."
+    },
+    {
+      "id": "audioset",
+      "name": "Google AudioSet",
+      "url": "https://research.google.com/audioset/",
+      "coverage_note": "2,084,320 human-labeled ten-second YouTube audio segments across a broad sound ontology; official release includes labels and audio embeddings, not an unrestricted bundle of source recordings.",
+      "license_note": "Underlying audio is hosted on YouTube and subject to source/platform rights. Annotation or feature access is not blanket permission to download, retain or train on the audio."
     },
     {
       "id": "vicos_bjj",
       "name": "ViCoS BJJ Dataset",
       "url": "https://vicos.si/resources/jiujitsu/",
-      "coverage_note": "BJJ-specific labeled video frames and pose annotations; narrow domain and small number of sparring sequences, not 100 disciplines or full tournament event logs.",
+      "coverage_note": "120,279 labeled images from two BJJ athletes across six sparring sequences, with 10 positions represented by 18 classes and manually assigned position labels. Pose detections were automatic and manually verified, but their correctness is not guaranteed. This is not 120,000 independent clips, 100 disciplines, or full tournament coverage.",
       "license_note": "CC BY-NC-SA 4.0 per project page; non-commercial/share-alike conditions apply. Review consent, redistribution and pose annotation caveats before use."
+    },
+    {
+      "id": "human3_6m",
+      "name": "Human3.6M",
+      "url": "https://vision.imar.ro/human3.6m/description.php",
+      "coverage_note": "3.6 million 3D poses and corresponding images from 11 actors in 17 everyday-action scenarios, with synchronized video and motion capture. General pose research only; not combat-performance or martial-arts technique labels.",
+      "license_note": "The official site requires compliance with its data-use license agreement and citation of the specified papers. Access/use terms apply; review the agreement before acquisition or model training."
+    },
+    {
+      "id": "kinetics",
+      "name": "Kinetics-400/600/700 Video Datasets",
+      "url": "https://github.com/cvdfoundation/kinetics-dataset",
+      "coverage_note": "Large-scale general human-action datasets provided as YouTube video links with single action labels and roughly 10-second clips. They are not dedicated martial-arts technique datasets; verify exact action classes and availability per version.",
+      "license_note": "The repository provides video links and annotations, not blanket rights to the underlying YouTube videos. Review source/platform terms and rights for each clip before acquisition, training or redistribution; do not train/test across overlapping dataset versions."
+    },
+    {
+      "id": "mpi_inf_mpii_human_pose",
+      "name": "MPII Human Pose Dataset",
+      "url": "https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/software-and-datasets/mpii-human-pose-dataset",
+      "coverage_note": "About 25,000 images with over 40,000 people, body-joint annotations and 410 general activity labels; images originate from YouTube videos. Candidate for generic pose pretraining only, not combat-technique labels.",
+      "license_note": "The official page describes the benchmark and download but does not state a dataset-wide reuse or model-training license. Do not treat source-video availability as training permission; confirm rights before acquisition or use."
+    },
+    {
+      "id": "thordata_martial_arts_video_preview",
+      "name": "Martial Arts Action Video Preview (Hugging Face)",
+      "url": "https://huggingface.co/datasets/thordata/martial-arts-video-v1",
+      "coverage_note": "Five short staged-looking clips with coarse scene/action metadata and first-pass temporal segments; useful only for reviewing annotation schemas, not for benchmark claims or reliable model training.",
+      "license_note": "Dataset card explicitly says product/legal review must confirm source, performer/producer rights and permission to redistribute the exact videos and annotations. Rights are unresolved; do not download or train."
+    },
+    {
+      "id": "unidatapro_fight_detection_preview",
+      "name": "Fight Detection Video (UniDataPro preview)",
+      "url": "https://huggingface.co/datasets/UniDataPro/fight-detection-video",
+      "coverage_note": "Vendor describes a 3,010+ video simulated/surveillance fight-detection collection. Task is coarse violence detection, not sport-specific action or technique recognition; full access is commercial.",
+      "license_note": "The Hugging Face card is a limited preview and provides no explicit reuse/model-training license for the video files. Obtain written commercial, performer, and ML-training rights from the vendor before acquiring or using."
     },
     {
       "id": "mediapipe_pose",
@@ -83,6 +202,26 @@
       "name": "Jordan Teaches Jiu-Jitsu YouTube",
       "url": "https://www.youtube.com/@JordanTeachesJiuJitsu",
       "use": "BJJ instruction reference; not a downloadable/open dataset."
+    },
+    {
+      "name": "AVA Actions",
+      "url": "https://research.google.com/ava/",
+      "use": "Person-level action annotations for research; underlying video rights must be reviewed independently."
+    },
+    {
+      "name": "UCF-Crime",
+      "url": "https://www.crcv.ucf.edu/projects/real-world/",
+      "use": "Coarse surveillance fight/non-fight research benchmark; not sport footage and not an unrestricted video source."
+    },
+    {
+      "name": "COCO Person Keypoints",
+      "url": "https://cocodataset.org/#home",
+      "use": "Static person keypoints for generic pose-detector development; image-level rights and terms must be checked."
+    },
+    {
+      "name": "CMU Graphics Lab Motion Capture Database",
+      "url": "https://mocap.cs.cmu.edu/",
+      "use": "Generic motion-capture sequences and human interaction trials; not martial-arts labels."
     }
   ]
 }
