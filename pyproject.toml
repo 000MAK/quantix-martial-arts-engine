@@ -12,6 +12,7 @@ dependencies = [
   "numpy",
   "pandas",
   "scikit-learn",
+  "scipy",
   "joblib",
   "streamlit",
   "torch",
