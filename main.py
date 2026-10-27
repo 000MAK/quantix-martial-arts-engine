@@ -24,6 +24,7 @@ def main()->None:
     vb=sub.add_parser('analyze-vicos-bjj',help='Summarize observed ViCoS BJJ position transitions (descriptive, no training)');vb.add_argument('--input',type=Path,required=True);vb.add_argument('--out',type=Path,default=ROOT/'outputs'/'vicos_bjj_positions');vb.add_argument('--fps',type=float,default=30.0)
     hk=sub.add_parser('fit-vicos-hawkes',help='Fit a self-exciting (Hawkes) model to ViCoS position-change timing vs. a Poisson baseline');hk.add_argument('--input',type=Path,default=ROOT/'outputs'/'vicos_position_analysis'/'position_observations.csv');hk.add_argument('--registry',type=Path,default=ROOT/'data'/'dataset_registry.json');hk.add_argument('--out',type=Path,default=ROOT/'outputs'/'vicos_hawkes')
     sm=sub.add_parser('fit-vicos-semi-markov',help='Fit censored exponential vs. Weibull dwell-time models and the jump chain to ViCoS position episodes');sm.add_argument('--input',type=Path,default=ROOT/'outputs'/'vicos_position_analysis'/'position_observations.csv');sm.add_argument('--registry',type=Path,default=ROOT/'data'/'dataset_registry.json');sm.add_argument('--out',type=Path,default=ROOT/'outputs'/'vicos_semi_markov')
+    rp=sub.add_parser('build-tex-report',help='Render Hawkes/semi-Markov summaries into a LaTeX technical report (PDF via pdflatex if installed)');rp.add_argument('--hawkes',type=Path,default=ROOT/'outputs'/'vicos_hawkes'/'hawkes_summary.json');rp.add_argument('--semi-markov',type=Path,default=ROOT/'outputs'/'vicos_semi_markov'/'semi_markov_summary.json');rp.add_argument('--out',type=Path,default=ROOT/'outputs'/'reports');rp.add_argument('--no-pdf',action='store_true')
     vt=sub.add_parser('train-vicos-bjj-pose',help='Train a non-commercial position classifier from licensed ViCoS pose annotations');vt.add_argument('--input',type=Path,default=ROOT/'data'/'raw'/'vicos_bjj_positions'/'annotations.json');vt.add_argument('--registry',type=Path,default=ROOT/'data'/'dataset_registry.json');vt.add_argument('--out-dir',type=Path,default=ROOT/'models'/'vicos_bjj_pose_position');vt.add_argument('--epochs',type=int,default=8);vt.add_argument('--batch-size',type=int,default=512)
     m=sub.add_parser('train-actions',help='Fit grouped-split scikit-learn action-label baselines');m.add_argument('--input',type=Path,required=True);m.add_argument('--out',type=Path,default=ROOT/'models'/'action_classifiers');m.add_argument('--target',default='action_label');m.add_argument('--group-col',default='sequence_id')
     au=sub.add_parser('extract-audio',help='Extract MFCC and acoustic summary features from a licensed audio manifest');au.add_argument('--manifest',type=Path,required=True);au.add_argument('--out',type=Path,default=ROOT/'outputs'/'audio_features.csv')
@@ -66,6 +67,9 @@ def main()->None:
     if args.cmd=='fit-vicos-semi-markov':
         from martial_arts_engine.semi_markov import analyze_vicos_semi_markov
         print(json.dumps(analyze_vicos_semi_markov(args.input,args.registry,args.out),indent=2,ensure_ascii=False));return
+    if args.cmd=='build-tex-report':
+        from martial_arts_engine.tex_report import write_report
+        print(json.dumps(write_report(args.out,args.hawkes,args.semi_markov,compile_pdf=not args.no_pdf),indent=2));return
     if args.cmd=='analyze-vicos-bjj':
         observations=read_vicos_annotations(args.input)
         outputs=write_vicos_analysis(observations,args.out,args.fps)
