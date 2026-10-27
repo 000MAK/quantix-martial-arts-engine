@@ -430,6 +430,29 @@
         "source_commit": "032c8f9",
         "local_path": "data/raw/grapplemap/GrappleMap"
       }
+    },
+    {
+      "dataset_id": "owned_training_videos",
+      "title": "Owner's own kickboxing / Muay Thai / BJJ training recordings",
+      "source_url": "local, owner-held recordings (paths not published)",
+      "access_type": "local_private_consented",
+      "license_id": "owned-original-recording",
+      "status": "approved_for_descriptive_analysis_only",
+      "task_compatibility": [
+        "pose_feature_extraction",
+        "descriptive_kinematics"
+      ],
+      "limitations": "Unlabelled footage; MediaPipe person indices are not stable identities, so per-athlete metrics need identity tracking first. No guard-drop or performance labels; not approved for model training. Raw video and outputs stay local.",
+      "analysis_approval": {
+        "approved_tasks": [
+          "pose_feature_extraction",
+          "descriptive_kinematics"
+        ],
+        "reviewer": "Mehmet Ali Kaya (owner)",
+        "reviewed_at": "2026-10-27",
+        "evidence_ref": "Owner attestation in session 2026-10-27: footage shows the owner and adult training partners who agreed to analysis",
+        "consent_scope": "local analysis only; no publication of footage or identifiable outputs"
+      }
     }
   ]
 }
