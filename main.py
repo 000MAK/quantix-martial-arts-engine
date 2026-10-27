@@ -31,6 +31,7 @@ def main()->None:
     tp=sub.add_parser('track-people',help='Link MediaPipe detections into stable person tracks for analysed video folders (adds track_id; flags overlap frames)');tp.add_argument('--root',type=Path,default=ROOT/'outputs'/'own_videos',help='A video output folder, or a root searched for pose_landmarks.csv');tp.add_argument('--skip-done',action='store_true')
     dc=sub.add_parser('demo-card',help='Build a session card (skeleton clip with bystanders blurred, intensity timeline) from one tracked video');dc.add_argument('--video-dir',type=Path,required=True);dc.add_argument('--video',type=Path,required=True);dc.add_argument('--out',type=Path,default=None)
     hr=sub.add_parser('train-uci-har',help='Train a subject-held-out activity classifier on UCI HAR (CC BY 4.0) and write a Hugging Face model card');hr.add_argument('--zip',type=Path,default=ROOT/'data'/'raw'/'uci_har_smartphones'/'uci_har.zip');hr.add_argument('--registry',type=Path,default=ROOT/'data'/'dataset_registry.json');hr.add_argument('--out',type=Path,default=ROOT/'models'/'uci_har_activity')
+    gm=sub.add_parser('export-grapplemap',help='Decode GrappleMap (public domain) into a position/transition graph dataset with a card');gm.add_argument('--input',type=Path,default=ROOT/'data'/'raw'/'grapplemap'/'GrappleMap'/'GrappleMap.txt');gm.add_argument('--out',type=Path,default=ROOT/'outputs'/'grapplemap_graph');gm.add_argument('--commit',default='032c8f9')
     vt=sub.add_parser('train-vicos-bjj-pose',help='Train a non-commercial position classifier from licensed ViCoS pose annotations');vt.add_argument('--input',type=Path,default=ROOT/'data'/'raw'/'vicos_bjj_positions'/'annotations.json');vt.add_argument('--registry',type=Path,default=ROOT/'data'/'dataset_registry.json');vt.add_argument('--out-dir',type=Path,default=ROOT/'models'/'vicos_bjj_pose_position');vt.add_argument('--epochs',type=int,default=8);vt.add_argument('--batch-size',type=int,default=512)
     m=sub.add_parser('train-actions',help='Fit grouped-split scikit-learn action-label baselines');m.add_argument('--input',type=Path,required=True);m.add_argument('--out',type=Path,default=ROOT/'models'/'action_classifiers');m.add_argument('--target',default='action_label');m.add_argument('--group-col',default='sequence_id')
     au=sub.add_parser('extract-audio',help='Extract MFCC and acoustic summary features from a licensed audio manifest');au.add_argument('--manifest',type=Path,required=True);au.add_argument('--out',type=Path,default=ROOT/'outputs'/'audio_features.csv')
@@ -97,6 +98,10 @@ def main()->None:
     if args.cmd=='train-uci-har':
         from martial_arts_engine.har_baseline import train_uci_har
         print(json.dumps(train_uci_har(args.zip,args.registry,args.out),indent=2));return
+    if args.cmd=='export-grapplemap':
+        from martial_arts_engine.grapplemap import export
+        s=export(args.input,args.out,args.commit); s.pop('joints',None)
+        print(json.dumps(s,indent=2,ensure_ascii=False));return
     if args.cmd=='analyze-vicos-bjj':
         observations=read_vicos_annotations(args.input)
         outputs=write_vicos_analysis(observations,args.out,args.fps)
