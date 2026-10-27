@@ -25,6 +25,9 @@ def main()->None:
     hk=sub.add_parser('fit-vicos-hawkes',help='Fit a self-exciting (Hawkes) model to ViCoS position-change timing vs. a Poisson baseline');hk.add_argument('--input',type=Path,default=ROOT/'outputs'/'vicos_position_analysis'/'position_observations.csv');hk.add_argument('--registry',type=Path,default=ROOT/'data'/'dataset_registry.json');hk.add_argument('--out',type=Path,default=ROOT/'outputs'/'vicos_hawkes')
     sm=sub.add_parser('fit-vicos-semi-markov',help='Fit censored exponential vs. Weibull dwell-time models and the jump chain to ViCoS position episodes');sm.add_argument('--input',type=Path,default=ROOT/'outputs'/'vicos_position_analysis'/'position_observations.csv');sm.add_argument('--registry',type=Path,default=ROOT/'data'/'dataset_registry.json');sm.add_argument('--out',type=Path,default=ROOT/'outputs'/'vicos_semi_markov')
     rp=sub.add_parser('build-tex-report',help='Render Hawkes/semi-Markov summaries into a LaTeX technical report (PDF via pdflatex if installed)');rp.add_argument('--hawkes',type=Path,default=ROOT/'outputs'/'vicos_hawkes'/'hawkes_summary.json');rp.add_argument('--semi-markov',type=Path,default=ROOT/'outputs'/'vicos_semi_markov'/'semi_markov_summary.json');rp.add_argument('--out',type=Path,default=ROOT/'outputs'/'reports');rp.add_argument('--no-pdf',action='store_true')
+    fu=sub.add_parser('fuse-streams',help='Align consented pose/audio/heart-rate CSV streams on one time axis from a manifest');fu.add_argument('--manifest',type=Path,required=True);fu.add_argument('--out',type=Path,default=ROOT/'outputs'/'fused_streams.csv')
+    di=sub.add_parser('db-ingest',help='Load Hawkes/semi-Markov outputs into the local SQLite store (idempotent)');di.add_argument('--db',type=Path,default=ROOT/'outputs'/'quantix_vault.db');di.add_argument('--outputs',type=Path,default=ROOT/'outputs')
+    dq=sub.add_parser('db-query',help='Run a read-only SQL query against the local SQLite store');dq.add_argument('--db',type=Path,default=ROOT/'outputs'/'quantix_vault.db');dq.add_argument('--sql',required=True)
     vt=sub.add_parser('train-vicos-bjj-pose',help='Train a non-commercial position classifier from licensed ViCoS pose annotations');vt.add_argument('--input',type=Path,default=ROOT/'data'/'raw'/'vicos_bjj_positions'/'annotations.json');vt.add_argument('--registry',type=Path,default=ROOT/'data'/'dataset_registry.json');vt.add_argument('--out-dir',type=Path,default=ROOT/'models'/'vicos_bjj_pose_position');vt.add_argument('--epochs',type=int,default=8);vt.add_argument('--batch-size',type=int,default=512)
     m=sub.add_parser('train-actions',help='Fit grouped-split scikit-learn action-label baselines');m.add_argument('--input',type=Path,required=True);m.add_argument('--out',type=Path,default=ROOT/'models'/'action_classifiers');m.add_argument('--target',default='action_label');m.add_argument('--group-col',default='sequence_id')
     au=sub.add_parser('extract-audio',help='Extract MFCC and acoustic summary features from a licensed audio manifest');au.add_argument('--manifest',type=Path,required=True);au.add_argument('--out',type=Path,default=ROOT/'outputs'/'audio_features.csv')
@@ -70,6 +73,15 @@ def main()->None:
     if args.cmd=='build-tex-report':
         from martial_arts_engine.tex_report import write_report
         print(json.dumps(write_report(args.out,args.hawkes,args.semi_markov,compile_pdf=not args.no_pdf),indent=2));return
+    if args.cmd=='fuse-streams':
+        from martial_arts_engine.fusion import fuse_from_manifest
+        print(json.dumps(fuse_from_manifest(args.manifest,args.out),indent=2,ensure_ascii=False));return
+    if args.cmd=='db-ingest':
+        from martial_arts_engine.vault_db import ingest_outputs
+        print(json.dumps(ingest_outputs(args.db,args.outputs),indent=2));return
+    if args.cmd=='db-query':
+        from martial_arts_engine.vault_db import query
+        print(query(args.db,args.sql).to_string(index=False));return
     if args.cmd=='analyze-vicos-bjj':
         observations=read_vicos_annotations(args.input)
         outputs=write_vicos_analysis(observations,args.out,args.fps)

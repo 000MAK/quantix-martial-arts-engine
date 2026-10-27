@@ -1,0 +1,29 @@
+{
+  "tolerance_s": 0.1,
+  "base": {
+    "name": "pose",
+    "path": "pose_landmarks.csv",
+    "source_id": "",
+    "license_id": "",
+    "consent_status": "",
+    "offset_s": 0.0
+  },
+  "streams": [
+    {
+      "name": "audio",
+      "path": "audio_features.csv",
+      "source_id": "",
+      "license_id": "",
+      "consent_status": "",
+      "offset_s": 0.0
+    },
+    {
+      "name": "hr",
+      "path": "heart_rate.csv",
+      "source_id": "",
+      "license_id": "",
+      "consent_status": "",
+      "offset_s": 0.0
+    }
+  ]
+}
