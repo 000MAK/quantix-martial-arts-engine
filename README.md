@@ -1,5 +1,7 @@
 # Global Martial Arts Analytics Platform · 100 MA Engine
 
+[![QMASE CI](https://github.com/000MAK/quantix-martial-arts-engine/actions/workflows/qmase_ci.yml/badge.svg)](https://github.com/000MAK/quantix-martial-arts-engine/actions/workflows/qmase_ci.yml) [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+
 Local research scaffold for the **100 numbered entries** supplied by the user. It combines shared data contracts with optional computer vision/pose extraction, acoustic features, transition analysis, supervised-learning baselines, injury survival analysis and an arcade telemetry contract.
 
 See [MODEL_CATALOG.md](MODEL_CATALOG.md) for the implemented-versus-proposed model inventory and research prerequisites. The catalog explicitly does not claim that roadmap methods are deployed or integrated with BIOGAS.
