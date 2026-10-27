@@ -1,0 +1,101 @@
+﻿ordinal,discipline_id,name,category,category_index,modalities,data_status,measured_metrics,review_note
+1,ma-001-boxing,Boxing,striking_standup,1,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+2,ma-002-muay-thai,Muay Thai,striking_standup,2,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+3,ma-003-kickboxing,Kickboxing,striking_standup,3,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+4,ma-004-kyokushin-karate,Kyokushin Karate,striking_standup,4,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+5,ma-005-shotokan-karate,Shotokan Karate,striking_standup,5,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+6,ma-006-goju-ryu-karate,Goju-Ryu Karate,striking_standup,6,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+7,ma-007-shito-ryu-karate,Shito-Ryu Karate,striking_standup,7,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+8,ma-008-wado-ryu-karate,Wado-Ryu Karate,striking_standup,8,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+9,ma-009-taekwondo-wt,Taekwondo (WT),striking_standup,9,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+10,ma-010-taekwondo-itf,Taekwondo (ITF),striking_standup,10,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+11,ma-011-savate-french-boxing,Savate (French Boxing),striking_standup,11,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+12,ma-012-sanda-wushu-sanda,Sanda (Wushu Sanda),striking_standup,12,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+13,ma-013-lethwei,Lethwei,striking_standup,13,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+14,ma-014-kempo-kenpo,Kempo / Kenpo,striking_standup,14,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+15,ma-015-boxe-fran-aise,Boxe Fran?aise,striking_standup,15,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+16,ma-016-bando,Bando,striking_standup,16,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+17,ma-017-naha-te,Naha-te,striking_standup,17,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+18,ma-018-shorin-ryu,Shorin-ryu,striking_standup,18,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+19,ma-019-uechi-ryu,Uechi-ryu,striking_standup,19,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+20,ma-020-tang-soo-do,Tang Soo Do,striking_standup,20,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+21,ma-021-kuk-sool-won,Kuk Sool Won,striking_standup,21,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+22,ma-022-taekkyeon,Taekkyeon,striking_standup,22,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+23,ma-023-shorinji-kempo,Shorinji Kempo,striking_standup,23,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+24,ma-024-canne-de-combat,Canne de Combat,striking_standup,24,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+25,ma-025-pradal-serey,Pradal Serey,striking_standup,25,video|pose|audio|event,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+26,ma-026-brazilian-jiu-jitsu-gi,Brazilian Jiu-Jitsu (Gi),grappling_ground,1,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+27,ma-027-brazilian-jiu-jitsu-no-gi,Brazilian Jiu-Jitsu (No-Gi),grappling_ground,2,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+28,ma-028-judo,Judo,grappling_ground,3,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+29,ma-029-sport-sambo,Sport Sambo,grappling_ground,4,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+30,ma-030-combat-sambo,Combat Sambo,grappling_ground,5,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+31,ma-031-freestyle-wrestling,Freestyle Wrestling,grappling_ground,6,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+32,ma-032-greco-roman-wrestling,Greco-Roman Wrestling,grappling_ground,7,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+33,ma-033-catch-wrestling,Catch Wrestling,grappling_ground,8,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+34,ma-034-luta-livre,Luta Livre,grappling_ground,9,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+35,ma-035-sumo,Sumo,grappling_ground,10,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+36,ma-036-shuai-jiao,Shuai Jiao,grappling_ground,11,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+37,ma-037-ssireum,Ssireum,grappling_ground,12,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+38,ma-038-submission-grappling,Submission Grappling,grappling_ground,13,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+39,ma-039-pankration,Pankration,grappling_ground,14,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+40,ma-040-danzan-ryu,Danzan-Ryu,grappling_ground,15,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+41,ma-041-traditional-jujutsu,Traditional Jujutsu,grappling_ground,16,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+42,ma-042-aiki-jujutsu,Aiki-Jujutsu,grappling_ground,17,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+43,ma-043-hapkido,Hapkido,grappling_ground,18,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+44,ma-044-bokh-mongolian-wrestling,Bokh (Mongolian Wrestling),grappling_ground,19,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+45,ma-045-turkish-oil-wrestling-ya-l-g-re,Turkish Oil Wrestling (Ya?l? G?re?),grappling_ground,20,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+46,ma-046-glima,Glima,grappling_ground,21,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+47,ma-047-schwingen,Schwingen,grappling_ground,22,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+48,ma-048-kurash,Kurash,grappling_ground,23,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+49,ma-049-bajitsu,Bajitsu,grappling_ground,24,video|pose|event|sensor,requires_labeled_data,,Bajitsu is a mounted-combat term and appears atypical in this supplied grappling group; verify spelling and category.
+50,ma-050-laamb-senegalese-wrestling,Laamb (Senegalese Wrestling),grappling_ground,25,video|pose|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+51,ma-051-modern-mma,Modern MMA,hybrid_modern,1,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+52,ma-052-shootfighting,Shootfighting,hybrid_modern,2,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+53,ma-053-vale-tudo,Vale Tudo,hybrid_modern,3,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+54,ma-054-krav-maga,Krav Maga,hybrid_modern,4,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+55,ma-055-systema,Systema,hybrid_modern,5,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+56,ma-056-jeet-kune-do,Jeet Kune Do,hybrid_modern,6,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+57,ma-057-kajukenbo,Kajukenbo,hybrid_modern,7,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+58,ma-058-combat-ju-jutsu,Combat Ju-Jutsu,hybrid_modern,8,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+59,ma-059-shooto,Shooto,hybrid_modern,9,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+60,ma-060-pancrase,Pancrase,hybrid_modern,10,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+61,ma-061-san-shou,San Shou,hybrid_modern,11,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+62,ma-062-defendo,Defendo,hybrid_modern,12,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+63,ma-063-keysi-fighting-method-kfm,Keysi Fighting Method (KFM),hybrid_modern,13,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+64,ma-064-close-quarters-combat-cqc,Close Quarters Combat (CQC),hybrid_modern,14,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+65,ma-065-kapap,Kapap,hybrid_modern,15,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+66,ma-066-urban-combatives,Urban Combatives,hybrid_modern,16,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+67,ma-067-spear-system,SPEAR System,hybrid_modern,17,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+68,ma-068-combat-hapkido,Combat Hapkido,hybrid_modern,18,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+69,ma-069-shorinji-kempo,Shorinji Kempo,hybrid_modern,19,video|pose|audio|event|sensor,requires_labeled_data,,Name also appears at MA-023; verify whether these refer to the same style or distinct syllabus.
+70,ma-070-budoshin-ju-jitsu,Budoshin Ju-Jitsu,hybrid_modern,20,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+71,ma-071-american-kenpo,American Kenpo,hybrid_modern,21,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+72,ma-072-world-war-combatives,World War Combatives,hybrid_modern,22,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+73,ma-073-sento-machi,Sento Machi,hybrid_modern,23,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+74,ma-074-hokutoryu-ju-jutsu,Hokutoryu Ju-Jutsu,hybrid_modern,24,video|pose|audio|event|sensor,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+75,ma-075-kuk-sool,Kuk Sool,hybrid_modern,25,video|pose|audio|event|sensor,requires_labeled_data,,Potential umbrella/style overlap with MA-021; clarify taxonomy scope before comparative analysis.
+76,ma-076-wing-chun,Wing Chun,traditional_weapons_forms,1,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+77,ma-077-tai-chi-chuan-taijiquan,Tai Chi Chuan (Taijiquan),traditional_weapons_forms,2,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+78,ma-078-ba-gua-zhang,Ba Gua Zhang,traditional_weapons_forms,3,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+79,ma-079-xing-yi-quan,Xing Yi Quan,traditional_weapons_forms,4,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+80,ma-080-capoeira,Capoeira,traditional_weapons_forms,5,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+81,ma-081-eskrima-kali-arnis,Eskrima / Kali / Arnis,traditional_weapons_forms,6,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+82,ma-082-pencak-silat,Pencak Silat,traditional_weapons_forms,7,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+83,ma-083-kendo,Kendo,traditional_weapons_forms,8,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+84,ma-084-iaido,Iaido,traditional_weapons_forms,9,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+85,ma-085-kenjutsu,Kenjutsu,traditional_weapons_forms,10,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+86,ma-086-naginatajutsu,Naginatajutsu,traditional_weapons_forms,11,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+87,ma-087-sojutsu,Sojutsu,traditional_weapons_forms,12,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+88,ma-088-bojutsu,Bojutsu,traditional_weapons_forms,13,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+89,ma-089-haidong-gumdo,Haidong Gumdo,traditional_weapons_forms,14,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+90,ma-090-ninjutsu-ninpo,Ninjutsu / Ninpo,traditional_weapons_forms,15,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+91,ma-091-bajiquan-paji-kovan,Bajiquan (Paji Kovan),traditional_weapons_forms,16,video|pose|audio|form_score,requires_labeled_data,,Name is distinct from MA-049 Bajitsu; confirm transliteration to avoid a false merge.
+92,ma-092-praying-mantis-kung-fu,Praying Mantis Kung Fu,traditional_weapons_forms,17,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+93,ma-093-shaolin-kung-fu,Shaolin Kung Fu,traditional_weapons_forms,18,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+94,ma-094-wushu-taolu,Wushu (Taolu),traditional_weapons_forms,19,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+95,ma-095-drunken-boxing-zui-quan,Drunken Boxing (Zui Quan),traditional_weapons_forms,20,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+96,ma-096-choy-li-fut,Choy Li Fut,traditional_weapons_forms,21,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+97,ma-097-bataireacht,Bataireacht,traditional_weapons_forms,22,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+98,ma-098-batt-jutsu,Batt?jutsu,traditional_weapons_forms,23,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+99,ma-099-kyudo,Kyudo,traditional_weapons_forms,24,video|pose|audio|form_score,requires_labeled_data,,Working taxonomy entry; not a performance score or empirical claim.
+100,ma-100-arnis-de-mano,Arnis de Mano,traditional_weapons_forms,25,video|pose|audio|form_score,requires_labeled_data,,Potential alias/overlap with MA-081; domain review recommended.

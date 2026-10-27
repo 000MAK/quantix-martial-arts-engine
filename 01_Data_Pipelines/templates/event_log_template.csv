@@ -1,0 +1,1 @@
+﻿sequence_id,timestamp_ms,discipline_id,state_from,state_to,action_label,outcome,athlete_id,session_id,video_id,frame_index,source_id,license_id,annotator_id,annotation_status,annotation_protocol,rule_set

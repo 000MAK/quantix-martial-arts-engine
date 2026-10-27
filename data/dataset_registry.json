@@ -1,0 +1,92 @@
+{
+  "registry_version": 1,
+  "policy": "deny_by_default",
+  "purpose": "Track provenance, access conditions, licenses, and task compatibility before data ingestion or model training.",
+  "datasets": [
+    {
+      "dataset_id": "vicos_bjj_positions",
+      "title": "Brazilian Jiu-Jitsu Positions Dataset",
+      "source_url": "https://www2.vicos.si/resources/jiujitsu/",
+      "access_type": "public_download",
+      "license_id": "CC-BY-NC-SA-4.0",
+      "status": "approved_for_noncommercial_analysis_only",
+      "task_compatibility": ["bjj_position_classification", "bjj_position_transition_analysis"],
+      "limitations": "Non-commercial, share-alike terms. Position labels support descriptive transitions between sampled annotations, not guard-drop labels or continuous dwell-time estimates. Dataset coverage is limited to six sparring sequences and is not professional-match coverage.",
+      "analysis_approval": {
+        "approved_tasks": ["bjj_position_transition_analysis"],
+        "reviewer": "User selected the ViCoS candidate for non-commercial position analysis in this session",
+        "reviewed_at": "2026-10-27",
+        "evidence_ref": "https://www2.vicos.si/resources/jiujitsu/",
+        "access_evidence_ref": "https://data.vicos.si/datasets/JuiJuitsu/annotations.json"
+      },
+      "image_training_approval": {
+        "approved_tasks": ["bjj_position_image_classification"],
+        "reviewer": "User requested work with image data after selecting the ViCoS candidate",
+        "reviewed_at": "2026-10-27",
+        "evidence_ref": "https://www2.vicos.si/resources/jiujitsu/",
+        "noncommercial_use_confirmed": true,
+        "scope": "Exploratory image classification of the dataset's 18 annotated position classes only; not guard-drop prediction or general athlete evaluation."
+      },
+      "training_approval": {
+        "approved_tasks": ["bjj_pose_position_classification"],
+        "reviewer": "User requested training on publicly accessible martial-arts datasets; scope limited to this licensed non-commercial ViCoS position task",
+        "reviewed_at": "2026-10-27",
+        "evidence_ref": "https://www2.vicos.si/resources/jiujitsu/",
+        "access_evidence_ref": "https://data.vicos.si/datasets/JuiJuitsu/annotations.json",
+        "noncommercial_use_confirmed": true,
+        "scope": "Train an exploratory classifier for the dataset's 18 BJJ position labels using its precomputed pose1/pose2 coordinates. Not RGB-video training, guard-drop prediction, or general athlete evaluation."
+      }
+    },
+    {
+      "dataset_id": "ntu_rgbd_120_skeleton",
+      "title": "NTU RGB+D 120 Skeleton Data",
+      "source_url": "https://rose1.ntu.edu.sg/dataset/actionRecognition/",
+      "access_type": "manual_approval",
+      "license_id": "ROSE-Lab-Release-Agreement",
+      "status": "access_approval_required",
+      "task_compatibility": ["general_skeleton_action_recognition"],
+      "limitations": "Registration, request, and release agreement required; academic non-commercial research only under the published terms. Not a guard-drop annotation set.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "",
+        "access_evidence_ref": ""
+      }
+    },
+    {
+      "dataset_id": "human3_6m",
+      "title": "Human3.6M",
+      "source_url": "https://vision.imar.ro/human3.6m/",
+      "access_type": "academic_request",
+      "license_id": "Human3.6M-Academic-Use-Agreement",
+      "status": "access_approval_required",
+      "task_compatibility": ["general_3d_pose_estimation"],
+      "limitations": "Academic-use request conditions apply; daily-activity motion capture, not combat-performance labels.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "",
+        "access_evidence_ref": ""
+      }
+    },
+    {
+      "dataset_id": "uci_har_smartphones",
+      "title": "Human Activity Recognition Using Smartphones",
+      "source_url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+      "access_type": "public_download",
+      "license_id": "CC-BY-4.0",
+      "status": "not_approved_task_mismatch",
+      "task_compatibility": ["general_wearable_activity_classification"],
+      "limitations": "Daily activities from smartphone inertial sensors; not video skeleton sequences or combat-technique labels.",
+      "training_approval": {
+        "approved_tasks": [],
+        "reviewer": "",
+        "reviewed_at": "",
+        "evidence_ref": "",
+        "access_evidence_ref": ""
+      }
+    }
+  ]
+}

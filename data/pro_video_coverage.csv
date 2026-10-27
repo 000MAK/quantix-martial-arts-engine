@@ -1,0 +1,101 @@
+﻿discipline_id,discipline_name,category,professional_videos_provided,rights_cleared_for_ml,annotated_bouts,coverage_status,notes
+ma-001-boxing,Boxing,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-002-muay-thai,Muay Thai,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-003-kickboxing,Kickboxing,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-004-kyokushin-karate,Kyokushin Karate,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-005-shotokan-karate,Shotokan Karate,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-006-goju-ryu-karate,Goju-Ryu Karate,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-007-shito-ryu-karate,Shito-Ryu Karate,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-008-wado-ryu-karate,Wado-Ryu Karate,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-009-taekwondo-wt,Taekwondo (WT),striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-010-taekwondo-itf,Taekwondo (ITF),striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-011-savate-french-boxing,Savate (French Boxing),striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-012-sanda-wushu-sanda,Sanda (Wushu Sanda),striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-013-lethwei,Lethwei,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-014-kempo-kenpo,Kempo / Kenpo,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-015-boxe-fran-aise,Boxe Fran?aise,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-016-bando,Bando,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-017-naha-te,Naha-te,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-018-shorin-ryu,Shorin-ryu,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-019-uechi-ryu,Uechi-ryu,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-020-tang-soo-do,Tang Soo Do,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-021-kuk-sool-won,Kuk Sool Won,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-022-taekkyeon,Taekkyeon,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-023-shorinji-kempo,Shorinji Kempo,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-024-canne-de-combat,Canne de Combat,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-025-pradal-serey,Pradal Serey,striking_standup,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-026-brazilian-jiu-jitsu-gi,Brazilian Jiu-Jitsu (Gi),grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-027-brazilian-jiu-jitsu-no-gi,Brazilian Jiu-Jitsu (No-Gi),grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-028-judo,Judo,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-029-sport-sambo,Sport Sambo,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-030-combat-sambo,Combat Sambo,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-031-freestyle-wrestling,Freestyle Wrestling,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-032-greco-roman-wrestling,Greco-Roman Wrestling,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-033-catch-wrestling,Catch Wrestling,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-034-luta-livre,Luta Livre,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-035-sumo,Sumo,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-036-shuai-jiao,Shuai Jiao,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-037-ssireum,Ssireum,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-038-submission-grappling,Submission Grappling,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-039-pankration,Pankration,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-040-danzan-ryu,Danzan-Ryu,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-041-traditional-jujutsu,Traditional Jujutsu,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-042-aiki-jujutsu,Aiki-Jujutsu,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-043-hapkido,Hapkido,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-044-bokh-mongolian-wrestling,Bokh (Mongolian Wrestling),grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-045-turkish-oil-wrestling-ya-l-g-re,Turkish Oil Wrestling (Ya?l? G?re?),grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-046-glima,Glima,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-047-schwingen,Schwingen,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-048-kurash,Kurash,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-049-bajitsu,Bajitsu,grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-050-laamb-senegalese-wrestling,Laamb (Senegalese Wrestling),grappling_ground,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-051-modern-mma,Modern MMA,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-052-shootfighting,Shootfighting,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-053-vale-tudo,Vale Tudo,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-054-krav-maga,Krav Maga,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-055-systema,Systema,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-056-jeet-kune-do,Jeet Kune Do,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-057-kajukenbo,Kajukenbo,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-058-combat-ju-jutsu,Combat Ju-Jutsu,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-059-shooto,Shooto,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-060-pancrase,Pancrase,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-061-san-shou,San Shou,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-062-defendo,Defendo,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-063-keysi-fighting-method-kfm,Keysi Fighting Method (KFM),hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-064-close-quarters-combat-cqc,Close Quarters Combat (CQC),hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-065-kapap,Kapap,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-066-urban-combatives,Urban Combatives,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-067-spear-system,SPEAR System,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-068-combat-hapkido,Combat Hapkido,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-069-shorinji-kempo,Shorinji Kempo,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-070-budoshin-ju-jitsu,Budoshin Ju-Jitsu,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-071-american-kenpo,American Kenpo,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-072-world-war-combatives,World War Combatives,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-073-sento-machi,Sento Machi,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-074-hokutoryu-ju-jutsu,Hokutoryu Ju-Jutsu,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-075-kuk-sool,Kuk Sool,hybrid_modern,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-076-wing-chun,Wing Chun,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-077-tai-chi-chuan-taijiquan,Tai Chi Chuan (Taijiquan),traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-078-ba-gua-zhang,Ba Gua Zhang,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-079-xing-yi-quan,Xing Yi Quan,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-080-capoeira,Capoeira,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-081-eskrima-kali-arnis,Eskrima / Kali / Arnis,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-082-pencak-silat,Pencak Silat,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-083-kendo,Kendo,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-084-iaido,Iaido,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-085-kenjutsu,Kenjutsu,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-086-naginatajutsu,Naginatajutsu,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-087-sojutsu,Sojutsu,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-088-bojutsu,Bojutsu,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-089-haidong-gumdo,Haidong Gumdo,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-090-ninjutsu-ninpo,Ninjutsu / Ninpo,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-091-bajiquan-paji-kovan,Bajiquan (Paji Kovan),traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-092-praying-mantis-kung-fu,Praying Mantis Kung Fu,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-093-shaolin-kung-fu,Shaolin Kung Fu,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-094-wushu-taolu,Wushu (Taolu),traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-095-drunken-boxing-zui-quan,Drunken Boxing (Zui Quan),traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-096-choy-li-fut,Choy Li Fut,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-097-bataireacht,Bataireacht,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-098-batt-jutsu,Batt?jutsu,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-099-kyudo,Kyudo,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.
+ma-100-arnis-de-mano,Arnis de Mano,traditional_weapons_forms,0,0,0,not_provided,No footage or annotations supplied in this workspace.

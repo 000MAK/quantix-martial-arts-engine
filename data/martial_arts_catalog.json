@@ -1,0 +1,1638 @@
+{
+  "catalog_version": "2.0",
+  "total_disciplines": 100,
+  "category_counts": {
+    "striking_standup": 25,
+    "grappling_ground": 25,
+    "hybrid_modern": 25,
+    "traditional_weapons_forms": 25
+  },
+  "taxonomy_note": "Faithful 1-100 transcription from the supplied list. Some entries are overlapping styles, rulesets, aliases or tactical systems; IDs identify rows, not proof that all are distinct martial arts. Review notes flag known overlap candidates.",
+  "entries": [
+    {
+      "ordinal": 1,
+      "discipline_id": "ma-001-boxing",
+      "name": "Boxing",
+      "category": "striking_standup",
+      "category_index": 1,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 2,
+      "discipline_id": "ma-002-muay-thai",
+      "name": "Muay Thai",
+      "category": "striking_standup",
+      "category_index": 2,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 3,
+      "discipline_id": "ma-003-kickboxing",
+      "name": "Kickboxing",
+      "category": "striking_standup",
+      "category_index": 3,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 4,
+      "discipline_id": "ma-004-kyokushin-karate",
+      "name": "Kyokushin Karate",
+      "category": "striking_standup",
+      "category_index": 4,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 5,
+      "discipline_id": "ma-005-shotokan-karate",
+      "name": "Shotokan Karate",
+      "category": "striking_standup",
+      "category_index": 5,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 6,
+      "discipline_id": "ma-006-goju-ryu-karate",
+      "name": "Goju-Ryu Karate",
+      "category": "striking_standup",
+      "category_index": 6,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 7,
+      "discipline_id": "ma-007-shito-ryu-karate",
+      "name": "Shito-Ryu Karate",
+      "category": "striking_standup",
+      "category_index": 7,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 8,
+      "discipline_id": "ma-008-wado-ryu-karate",
+      "name": "Wado-Ryu Karate",
+      "category": "striking_standup",
+      "category_index": 8,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 9,
+      "discipline_id": "ma-009-taekwondo-wt",
+      "name": "Taekwondo (WT)",
+      "category": "striking_standup",
+      "category_index": 9,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 10,
+      "discipline_id": "ma-010-taekwondo-itf",
+      "name": "Taekwondo (ITF)",
+      "category": "striking_standup",
+      "category_index": 10,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 11,
+      "discipline_id": "ma-011-savate-french-boxing",
+      "name": "Savate (French Boxing)",
+      "category": "striking_standup",
+      "category_index": 11,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 12,
+      "discipline_id": "ma-012-sanda-wushu-sanda",
+      "name": "Sanda (Wushu Sanda)",
+      "category": "striking_standup",
+      "category_index": 12,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 13,
+      "discipline_id": "ma-013-lethwei",
+      "name": "Lethwei",
+      "category": "striking_standup",
+      "category_index": 13,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 14,
+      "discipline_id": "ma-014-kempo-kenpo",
+      "name": "Kempo / Kenpo",
+      "category": "striking_standup",
+      "category_index": 14,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 15,
+      "discipline_id": "ma-015-boxe-fran-aise",
+      "name": "Boxe Fran?aise",
+      "category": "striking_standup",
+      "category_index": 15,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 16,
+      "discipline_id": "ma-016-bando",
+      "name": "Bando",
+      "category": "striking_standup",
+      "category_index": 16,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 17,
+      "discipline_id": "ma-017-naha-te",
+      "name": "Naha-te",
+      "category": "striking_standup",
+      "category_index": 17,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 18,
+      "discipline_id": "ma-018-shorin-ryu",
+      "name": "Shorin-ryu",
+      "category": "striking_standup",
+      "category_index": 18,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 19,
+      "discipline_id": "ma-019-uechi-ryu",
+      "name": "Uechi-ryu",
+      "category": "striking_standup",
+      "category_index": 19,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 20,
+      "discipline_id": "ma-020-tang-soo-do",
+      "name": "Tang Soo Do",
+      "category": "striking_standup",
+      "category_index": 20,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 21,
+      "discipline_id": "ma-021-kuk-sool-won",
+      "name": "Kuk Sool Won",
+      "category": "striking_standup",
+      "category_index": 21,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 22,
+      "discipline_id": "ma-022-taekkyeon",
+      "name": "Taekkyeon",
+      "category": "striking_standup",
+      "category_index": 22,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 23,
+      "discipline_id": "ma-023-shorinji-kempo",
+      "name": "Shorinji Kempo",
+      "category": "striking_standup",
+      "category_index": 23,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 24,
+      "discipline_id": "ma-024-canne-de-combat",
+      "name": "Canne de Combat",
+      "category": "striking_standup",
+      "category_index": 24,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 25,
+      "discipline_id": "ma-025-pradal-serey",
+      "name": "Pradal Serey",
+      "category": "striking_standup",
+      "category_index": 25,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 26,
+      "discipline_id": "ma-026-brazilian-jiu-jitsu-gi",
+      "name": "Brazilian Jiu-Jitsu (Gi)",
+      "category": "grappling_ground",
+      "category_index": 1,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 27,
+      "discipline_id": "ma-027-brazilian-jiu-jitsu-no-gi",
+      "name": "Brazilian Jiu-Jitsu (No-Gi)",
+      "category": "grappling_ground",
+      "category_index": 2,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 28,
+      "discipline_id": "ma-028-judo",
+      "name": "Judo",
+      "category": "grappling_ground",
+      "category_index": 3,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 29,
+      "discipline_id": "ma-029-sport-sambo",
+      "name": "Sport Sambo",
+      "category": "grappling_ground",
+      "category_index": 4,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 30,
+      "discipline_id": "ma-030-combat-sambo",
+      "name": "Combat Sambo",
+      "category": "grappling_ground",
+      "category_index": 5,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 31,
+      "discipline_id": "ma-031-freestyle-wrestling",
+      "name": "Freestyle Wrestling",
+      "category": "grappling_ground",
+      "category_index": 6,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 32,
+      "discipline_id": "ma-032-greco-roman-wrestling",
+      "name": "Greco-Roman Wrestling",
+      "category": "grappling_ground",
+      "category_index": 7,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 33,
+      "discipline_id": "ma-033-catch-wrestling",
+      "name": "Catch Wrestling",
+      "category": "grappling_ground",
+      "category_index": 8,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 34,
+      "discipline_id": "ma-034-luta-livre",
+      "name": "Luta Livre",
+      "category": "grappling_ground",
+      "category_index": 9,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 35,
+      "discipline_id": "ma-035-sumo",
+      "name": "Sumo",
+      "category": "grappling_ground",
+      "category_index": 10,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 36,
+      "discipline_id": "ma-036-shuai-jiao",
+      "name": "Shuai Jiao",
+      "category": "grappling_ground",
+      "category_index": 11,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 37,
+      "discipline_id": "ma-037-ssireum",
+      "name": "Ssireum",
+      "category": "grappling_ground",
+      "category_index": 12,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 38,
+      "discipline_id": "ma-038-submission-grappling",
+      "name": "Submission Grappling",
+      "category": "grappling_ground",
+      "category_index": 13,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 39,
+      "discipline_id": "ma-039-pankration",
+      "name": "Pankration",
+      "category": "grappling_ground",
+      "category_index": 14,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 40,
+      "discipline_id": "ma-040-danzan-ryu",
+      "name": "Danzan-Ryu",
+      "category": "grappling_ground",
+      "category_index": 15,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 41,
+      "discipline_id": "ma-041-traditional-jujutsu",
+      "name": "Traditional Jujutsu",
+      "category": "grappling_ground",
+      "category_index": 16,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 42,
+      "discipline_id": "ma-042-aiki-jujutsu",
+      "name": "Aiki-Jujutsu",
+      "category": "grappling_ground",
+      "category_index": 17,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 43,
+      "discipline_id": "ma-043-hapkido",
+      "name": "Hapkido",
+      "category": "grappling_ground",
+      "category_index": 18,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 44,
+      "discipline_id": "ma-044-bokh-mongolian-wrestling",
+      "name": "Bokh (Mongolian Wrestling)",
+      "category": "grappling_ground",
+      "category_index": 19,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 45,
+      "discipline_id": "ma-045-turkish-oil-wrestling-ya-l-g-re",
+      "name": "Turkish Oil Wrestling (Ya?l? G?re?)",
+      "category": "grappling_ground",
+      "category_index": 20,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 46,
+      "discipline_id": "ma-046-glima",
+      "name": "Glima",
+      "category": "grappling_ground",
+      "category_index": 21,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 47,
+      "discipline_id": "ma-047-schwingen",
+      "name": "Schwingen",
+      "category": "grappling_ground",
+      "category_index": 22,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 48,
+      "discipline_id": "ma-048-kurash",
+      "name": "Kurash",
+      "category": "grappling_ground",
+      "category_index": 23,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 49,
+      "discipline_id": "ma-049-bajitsu",
+      "name": "Bajitsu",
+      "category": "grappling_ground",
+      "category_index": 24,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Bajitsu is a mounted-combat term and appears atypical in this supplied grappling group; verify spelling and category."
+    },
+    {
+      "ordinal": 50,
+      "discipline_id": "ma-050-laamb-senegalese-wrestling",
+      "name": "Laamb (Senegalese Wrestling)",
+      "category": "grappling_ground",
+      "category_index": 25,
+      "modalities": [
+        "video",
+        "pose",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 51,
+      "discipline_id": "ma-051-modern-mma",
+      "name": "Modern MMA",
+      "category": "hybrid_modern",
+      "category_index": 1,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 52,
+      "discipline_id": "ma-052-shootfighting",
+      "name": "Shootfighting",
+      "category": "hybrid_modern",
+      "category_index": 2,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 53,
+      "discipline_id": "ma-053-vale-tudo",
+      "name": "Vale Tudo",
+      "category": "hybrid_modern",
+      "category_index": 3,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 54,
+      "discipline_id": "ma-054-krav-maga",
+      "name": "Krav Maga",
+      "category": "hybrid_modern",
+      "category_index": 4,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 55,
+      "discipline_id": "ma-055-systema",
+      "name": "Systema",
+      "category": "hybrid_modern",
+      "category_index": 5,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 56,
+      "discipline_id": "ma-056-jeet-kune-do",
+      "name": "Jeet Kune Do",
+      "category": "hybrid_modern",
+      "category_index": 6,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 57,
+      "discipline_id": "ma-057-kajukenbo",
+      "name": "Kajukenbo",
+      "category": "hybrid_modern",
+      "category_index": 7,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 58,
+      "discipline_id": "ma-058-combat-ju-jutsu",
+      "name": "Combat Ju-Jutsu",
+      "category": "hybrid_modern",
+      "category_index": 8,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 59,
+      "discipline_id": "ma-059-shooto",
+      "name": "Shooto",
+      "category": "hybrid_modern",
+      "category_index": 9,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 60,
+      "discipline_id": "ma-060-pancrase",
+      "name": "Pancrase",
+      "category": "hybrid_modern",
+      "category_index": 10,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 61,
+      "discipline_id": "ma-061-san-shou",
+      "name": "San Shou",
+      "category": "hybrid_modern",
+      "category_index": 11,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 62,
+      "discipline_id": "ma-062-defendo",
+      "name": "Defendo",
+      "category": "hybrid_modern",
+      "category_index": 12,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 63,
+      "discipline_id": "ma-063-keysi-fighting-method-kfm",
+      "name": "Keysi Fighting Method (KFM)",
+      "category": "hybrid_modern",
+      "category_index": 13,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 64,
+      "discipline_id": "ma-064-close-quarters-combat-cqc",
+      "name": "Close Quarters Combat (CQC)",
+      "category": "hybrid_modern",
+      "category_index": 14,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 65,
+      "discipline_id": "ma-065-kapap",
+      "name": "Kapap",
+      "category": "hybrid_modern",
+      "category_index": 15,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 66,
+      "discipline_id": "ma-066-urban-combatives",
+      "name": "Urban Combatives",
+      "category": "hybrid_modern",
+      "category_index": 16,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 67,
+      "discipline_id": "ma-067-spear-system",
+      "name": "SPEAR System",
+      "category": "hybrid_modern",
+      "category_index": 17,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 68,
+      "discipline_id": "ma-068-combat-hapkido",
+      "name": "Combat Hapkido",
+      "category": "hybrid_modern",
+      "category_index": 18,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 69,
+      "discipline_id": "ma-069-shorinji-kempo",
+      "name": "Shorinji Kempo",
+      "category": "hybrid_modern",
+      "category_index": 19,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Name also appears at MA-023; verify whether these refer to the same style or distinct syllabus."
+    },
+    {
+      "ordinal": 70,
+      "discipline_id": "ma-070-budoshin-ju-jitsu",
+      "name": "Budoshin Ju-Jitsu",
+      "category": "hybrid_modern",
+      "category_index": 20,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 71,
+      "discipline_id": "ma-071-american-kenpo",
+      "name": "American Kenpo",
+      "category": "hybrid_modern",
+      "category_index": 21,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 72,
+      "discipline_id": "ma-072-world-war-combatives",
+      "name": "World War Combatives",
+      "category": "hybrid_modern",
+      "category_index": 22,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 73,
+      "discipline_id": "ma-073-sento-machi",
+      "name": "Sento Machi",
+      "category": "hybrid_modern",
+      "category_index": 23,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 74,
+      "discipline_id": "ma-074-hokutoryu-ju-jutsu",
+      "name": "Hokutoryu Ju-Jutsu",
+      "category": "hybrid_modern",
+      "category_index": 24,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 75,
+      "discipline_id": "ma-075-kuk-sool",
+      "name": "Kuk Sool",
+      "category": "hybrid_modern",
+      "category_index": 25,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "event",
+        "sensor"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Potential umbrella/style overlap with MA-021; clarify taxonomy scope before comparative analysis."
+    },
+    {
+      "ordinal": 76,
+      "discipline_id": "ma-076-wing-chun",
+      "name": "Wing Chun",
+      "category": "traditional_weapons_forms",
+      "category_index": 1,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 77,
+      "discipline_id": "ma-077-tai-chi-chuan-taijiquan",
+      "name": "Tai Chi Chuan (Taijiquan)",
+      "category": "traditional_weapons_forms",
+      "category_index": 2,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 78,
+      "discipline_id": "ma-078-ba-gua-zhang",
+      "name": "Ba Gua Zhang",
+      "category": "traditional_weapons_forms",
+      "category_index": 3,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 79,
+      "discipline_id": "ma-079-xing-yi-quan",
+      "name": "Xing Yi Quan",
+      "category": "traditional_weapons_forms",
+      "category_index": 4,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 80,
+      "discipline_id": "ma-080-capoeira",
+      "name": "Capoeira",
+      "category": "traditional_weapons_forms",
+      "category_index": 5,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 81,
+      "discipline_id": "ma-081-eskrima-kali-arnis",
+      "name": "Eskrima / Kali / Arnis",
+      "category": "traditional_weapons_forms",
+      "category_index": 6,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 82,
+      "discipline_id": "ma-082-pencak-silat",
+      "name": "Pencak Silat",
+      "category": "traditional_weapons_forms",
+      "category_index": 7,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 83,
+      "discipline_id": "ma-083-kendo",
+      "name": "Kendo",
+      "category": "traditional_weapons_forms",
+      "category_index": 8,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 84,
+      "discipline_id": "ma-084-iaido",
+      "name": "Iaido",
+      "category": "traditional_weapons_forms",
+      "category_index": 9,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 85,
+      "discipline_id": "ma-085-kenjutsu",
+      "name": "Kenjutsu",
+      "category": "traditional_weapons_forms",
+      "category_index": 10,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 86,
+      "discipline_id": "ma-086-naginatajutsu",
+      "name": "Naginatajutsu",
+      "category": "traditional_weapons_forms",
+      "category_index": 11,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 87,
+      "discipline_id": "ma-087-sojutsu",
+      "name": "Sojutsu",
+      "category": "traditional_weapons_forms",
+      "category_index": 12,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 88,
+      "discipline_id": "ma-088-bojutsu",
+      "name": "Bojutsu",
+      "category": "traditional_weapons_forms",
+      "category_index": 13,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 89,
+      "discipline_id": "ma-089-haidong-gumdo",
+      "name": "Haidong Gumdo",
+      "category": "traditional_weapons_forms",
+      "category_index": 14,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 90,
+      "discipline_id": "ma-090-ninjutsu-ninpo",
+      "name": "Ninjutsu / Ninpo",
+      "category": "traditional_weapons_forms",
+      "category_index": 15,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 91,
+      "discipline_id": "ma-091-bajiquan-paji-kovan",
+      "name": "Bajiquan (Paji Kovan)",
+      "category": "traditional_weapons_forms",
+      "category_index": 16,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Name is distinct from MA-049 Bajitsu; confirm transliteration to avoid a false merge."
+    },
+    {
+      "ordinal": 92,
+      "discipline_id": "ma-092-praying-mantis-kung-fu",
+      "name": "Praying Mantis Kung Fu",
+      "category": "traditional_weapons_forms",
+      "category_index": 17,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 93,
+      "discipline_id": "ma-093-shaolin-kung-fu",
+      "name": "Shaolin Kung Fu",
+      "category": "traditional_weapons_forms",
+      "category_index": 18,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 94,
+      "discipline_id": "ma-094-wushu-taolu",
+      "name": "Wushu (Taolu)",
+      "category": "traditional_weapons_forms",
+      "category_index": 19,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 95,
+      "discipline_id": "ma-095-drunken-boxing-zui-quan",
+      "name": "Drunken Boxing (Zui Quan)",
+      "category": "traditional_weapons_forms",
+      "category_index": 20,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 96,
+      "discipline_id": "ma-096-choy-li-fut",
+      "name": "Choy Li Fut",
+      "category": "traditional_weapons_forms",
+      "category_index": 21,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 97,
+      "discipline_id": "ma-097-bataireacht",
+      "name": "Bataireacht",
+      "category": "traditional_weapons_forms",
+      "category_index": 22,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 98,
+      "discipline_id": "ma-098-batt-jutsu",
+      "name": "Batt?jutsu",
+      "category": "traditional_weapons_forms",
+      "category_index": 23,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 99,
+      "discipline_id": "ma-099-kyudo",
+      "name": "Kyudo",
+      "category": "traditional_weapons_forms",
+      "category_index": 24,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Working taxonomy entry; not a performance score or empirical claim."
+    },
+    {
+      "ordinal": 100,
+      "discipline_id": "ma-100-arnis-de-mano",
+      "name": "Arnis de Mano",
+      "category": "traditional_weapons_forms",
+      "category_index": 25,
+      "modalities": [
+        "video",
+        "pose",
+        "audio",
+        "form_score"
+      ],
+      "data_status": "requires_labeled_data",
+      "measured_metrics": null,
+      "review_note": "Potential alias/overlap with MA-081; domain review recommended."
+    }
+  ]
+}

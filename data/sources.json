@@ -1,0 +1,88 @@
+{
+  "notice": "Registry of candidate sources, not a claim that data has been downloaded or that any source covers all 100 catalog entries.",
+  "sources": [
+    {
+      "id": "ucf101",
+      "name": "UCF101 Human Actions Dataset",
+      "url": "https://www.crcv.ucf.edu/research/data-sets/ucf101/",
+      "coverage_note": "General action-recognition benchmark; includes a limited number of combat-adjacent classes, not martial-arts match telemetry.",
+      "license_note": "Check the dataset page and its linked terms before use; access/download is not performed by this project."
+    },
+    {
+      "id": "hmdb51",
+      "name": "HMDB51",
+      "url": "https://serre.lab.brown.edu/hmdb51.html",
+      "coverage_note": "General human-action clips; includes a few punch/kick/fencing/sword labels, not comprehensive discipline coverage.",
+      "license_note": "The project page reports CC BY 4.0; verify attribution and the current terms for the specific files used."
+    },
+    {
+      "id": "vicos_bjj",
+      "name": "ViCoS BJJ Dataset",
+      "url": "https://vicos.si/resources/jiujitsu/",
+      "coverage_note": "BJJ-specific labeled video frames and pose annotations; narrow domain and small number of sparring sequences, not 100 disciplines or full tournament event logs.",
+      "license_note": "CC BY-NC-SA 4.0 per project page; non-commercial/share-alike conditions apply. Review consent, redistribution and pose annotation caveats before use."
+    },
+    {
+      "id": "mediapipe_pose",
+      "name": "MediaPipe Pose Landmarker",
+      "url": "https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker",
+      "coverage_note": "Pose feature extraction software, not a labeled martial-arts dataset or action classifier.",
+      "license_note": "Review the model/software license and the source video rights independently."
+    },
+    {
+      "id": "ioc_olympic_results",
+      "name": "IOC Olympic Results",
+      "url": "https://www.olympics.com/ioc/faq/sports-programme-and-results/where-can-i-find-the-medallists-and-results-of-the-olympic-games",
+      "coverage_note": "Official Olympic results and medalist lookup; NOC represented at the event must be recorded separately from nationality.",
+      "license_note": "Reference discovery only. No scraping, bulk download or model-training rights are implied; check Olympic content terms for each intended use."
+    },
+    {
+      "id": "uww_results",
+      "name": "United World Wrestling Results",
+      "url": "https://cms.uww.org/event/senior-world-championships?section=results",
+      "coverage_note": "Official championship brackets, bout outcomes, medal summaries and team rankings for the listed event.",
+      "license_note": "Reference discovery only. Confirm access, reuse and ML-training permissions with the rights holder before acquisition or processing."
+    },
+    {
+      "id": "ibjjf_results",
+      "name": "IBJJF Results",
+      "url": "https://ibjjf.com/events/results",
+      "coverage_note": "Official results lookup across listed IBJJF championship events and years; availability varies by event and division.",
+      "license_note": "Reference discovery only. Verify data and video permissions independently; the results page does not grant broadcast-video training rights."
+    },
+    {
+      "id": "adcc_results_2024",
+      "name": "ADCC 2024 Official Results",
+      "url": "https://adcombat.com/2024-adcc-world-championship-day-2-full-results/",
+      "coverage_note": "Official event-publisher summary for 2024 ADCC World Championship champions and results; one event, not a complete historical results database.",
+      "license_note": "Reference discovery only; check page terms and rights before reproducing or bulk processing results."
+    }
+  ],
+  "educational_video_references": [
+    {
+      "name": "World Taekwondo Official YouTube",
+      "url": "https://www.youtube.com/@worldtaekwondo",
+      "use": "Competition footage and demonstrations for observation; not a downloadable/open dataset."
+    },
+    {
+      "name": "Evolve MMA YouTube",
+      "url": "https://www.youtube.com/user/evolvemma",
+      "use": "Instructional reference; not a downloadable/open dataset."
+    },
+    {
+      "name": "ONE Championship YouTube",
+      "url": "https://www.youtube.com/@ONEChampionship",
+      "use": "Fight footage for study; platform terms and rights apply, not a downloadable/open dataset."
+    },
+    {
+      "name": "Chewjitsu YouTube",
+      "url": "https://www.youtube.com/@Chewjitsu",
+      "use": "BJJ instruction reference; not a downloadable/open dataset."
+    },
+    {
+      "name": "Jordan Teaches Jiu-Jitsu YouTube",
+      "url": "https://www.youtube.com/@JordanTeachesJiuJitsu",
+      "use": "BJJ instruction reference; not a downloadable/open dataset."
+    }
+  ]
+}
