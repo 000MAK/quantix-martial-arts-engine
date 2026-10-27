@@ -24,7 +24,31 @@ st.title("🥋 Quantix · Martial Arts Analytics")
 st.caption("Local research dashboard · provenance-aware inputs · descriptive measurements, not a validated universal QMASE score")
 st.warning("Use this app only on a trusted local machine. Uploaded video, extracted pose files, and reports are written under outputs/dashboard_video_runs and remain there until you remove that run folder.")
 
-tab_home, tab_video, tab_sensor, tab_predict = st.tabs(["Overview", "Video analysis", "Wearable telemetry", "Match model"])
+tab_home, tab_mine, tab_video, tab_sensor, tab_predict = st.tabs(["Overview", "My videos", "Video analysis", "Wearable telemetry", "Match model"])
+
+with tab_mine:
+    own = ROOT / "outputs" / "own_videos"
+    log = own / "progress.csv"
+    if not log.is_file():
+        st.info("No batch run yet. Start it from the command hub (option 8).")
+    else:
+        runs = pd.read_csv(log)
+        picks = [json.loads(p.read_text(encoding="utf-8")) for p in own.rglob("me_track.json")]
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Videos processed", f"{int((runs.status == 'ok').sum())} / 710")
+        c2.metric("Failed", int((runs.status != "ok").sum()))
+        c3.metric("You picked in", f"{sum(p.get('me_track_id') is not None for p in picks)} videos")
+        rows = []
+        for video_dir in sorted({p.parent for p in own.rglob("track_summary.csv")}):
+            summary = pd.read_csv(video_dir / "track_summary.csv")
+            me = json.loads((video_dir / "me_track.json").read_text(encoding="utf-8")) if (video_dir / "me_track.json").is_file() else None
+            mine = video_dir / "my_landmarks.csv"
+            rows.append({"video": video_dir.name, "tracks": len(summary),
+                         "you": "not picked" if me is None else ("not in video" if me.get("me_track_id") is None else f"track {me['me_track_id']}"),
+                         "your frames": sum(1 for _ in mine.open(encoding="utf-8")) - 1 if mine.is_file() else 0})
+        st.subheader("Tracked videos")
+        st.dataframe(pd.DataFrame(rows), width="stretch", hide_index=True)
+        st.caption("Descriptive pose data only: no labels, no scores. Pick yourself per video with command hub option 11.")
 
 with tab_home:
     report = ROOT / "outputs" / "master_run" / "master_orchestrator_report.json"
